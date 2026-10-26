@@ -35,7 +35,7 @@ const CenterContent = (props) => {
 
   return (
     <div
-      className={`z-40 left-16 shrink-0 overflow-x-hidden overflow-y-auto transition-all duration-300 ${props.sidebarOpen ? "fixed left-0 top-0 flex h-screen w-[min(65vw, 240px)] p-4 md:relative md:left-auto md:w-87.5 md:p-8" : "hidden md:flex md:h-screen md:w-0 md:p-0"}  bg-pink-50 min-h-screen text-black dark:bg-[#242829] dark:text-white flex-col`}
+      className={`z-40 left-16 shrink-0 overflow-x-hidden overflow-y-auto transition-all duration-300 ${props.sidebarOpen ? "fixed left-0 top-0 flex h-screen w-[min(65vw, 240px)] p-4 md:relative md:w-87.5 md:p-8" : "hidden md:flex md:h-screen md:w-0 md:p-0"}  bg-pink-50 min-h-screen text-black dark:bg-[#242829] dark:text-white flex-col`}
     >
       <h2 className="font-bold text-4xl pb-10">Todos App</h2>
       <div className="border-2 mb-10 p-2 rounded-2xl border-pink-200 dark:border-[#3c4245] flex gap-2">
