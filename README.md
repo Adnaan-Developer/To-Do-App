@@ -48,10 +48,6 @@ npm run dev
 
 Open the local URL displayed in your terminal to view the application.
 
-## 📸 Preview
-
-Add a screenshot of your application here.
-
 ## 📚 What I Learned
 
 - Building reusable React components
